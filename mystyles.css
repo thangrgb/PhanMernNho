@@ -1,0 +1,28 @@
+.btn-custom-nav:hover {
+  background-color: white;
+  color: blue;
+}
+
+.txt-nav-custom {
+  font-size: larger;
+  color: white;
+}
+
+.btn-border-end-short {
+  position: relative;
+  padding-right: 1rem;
+}
+
+.btn-border-end-short::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 33.33%;
+  border-right: 2px solid #faf8f8;
+}
+
+.bg-nav {
+  background-color: #f4831b;
+}
